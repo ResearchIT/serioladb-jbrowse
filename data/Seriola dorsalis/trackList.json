@@ -1,9 +1,9 @@
 {
     "formatVersion" : 1,
-    "refSeqs": "https://db.scnbase.org/api/jbrowse/refSeqs.json?soType=supercontig&organism=Heterodera glycines TN10DraftAssembly",
+    "refSeqs": "https://db.serioladb.org/api/jbrowse/refSeqs.json?soType=supercontig&organism=Seriola dorsalis",
     "names" : {
        "type" : "REST",
-       "url" : "https://db.scnbase.org/api/jbrowse/names"
+       "url" : "https://db.serioladb.org/api/jbrowse/names"
     },
     "tracks" : [
         {
@@ -13,18 +13,18 @@
           "key":        "REST Reference Sequence",
           "type":       "JBrowse/View/Track/Sequence",
           "storeClass": "JBrowse/Store/SeqFeature/REST",
-          "baseUrl":    "https://db.scnbase.org/api/jbrowse",
+          "baseUrl":    "https://db.serioladb.org/api/jbrowse",
           "query": {
-             "organism": "Heterodera glycines TN10DraftAssembly"
+             "organism": "Seriola dorsalis"
           }
         },
         {
           "category": "2. Genes",
-          "baseUrl" : "https://db.scnbase.org/api/jbrowse",
+          "baseUrl" : "https://db.serioladb.org/api/jbrowse",
           "key" : "Gene",
           "label" : "gene",
           "query" : {
-             "organism": "Heterodera glycines TN10DraftAssembly",
+             "organism": "Seriola dorsalis",
              "soType" : "gene"
           },
           "storeClass" : "JBrowse/Store/SeqFeature/REST",
@@ -36,11 +36,11 @@
        },
       {
           "category": "2. Genes",
-          "baseUrl" : "https://db.scnbase.org/api/jbrowse",
+          "baseUrl" : "https://db.serioladb.org/api/jbrowse",
           "key" : "Transcript",
           "label" : "transcripts",
           "query" : {
-             "organism": "Heterodera glycines TN10DraftAssembly",
+             "organism": "Seriola dorsalis",
              "soType" : "mRNA"
           },
           "storeClass" : "JBrowse/Store/SeqFeature/REST",
@@ -52,11 +52,11 @@
        },
        {
           "category": "2. Genes",
-          "baseUrl" : "https://db.scnbase.org/api/jbrowse",
+          "baseUrl" : "https://db.serioladb.org/api/jbrowse",
           "key" : "CDS",
           "label" : "CDS",
           "query" : {
-             "organism": "Heterodera glycines TN10DraftAssembly",
+             "organism": "Seriola dorsalis",
              "soType" : "CDS"
           },
           "storeClass" : "JBrowse/Store/SeqFeature/REST",
@@ -64,11 +64,11 @@
       },
        {
           "category": "3. Variation",
-          "baseUrl" : "https://db.scnbase.org/api/jbrowse",
+          "baseUrl" : "https://db.serioladb.org/api/jbrowse",
           "key" : "SNV",
           "label" : "SNV",
           "query" : {
-             "organism" : "Heterodera glycines TN10DraftAssembly",
+             "organism" : "Seriola dorsalis",
              "soType" : "SNV"
           },
           "storeClass" : "JBrowse/Store/SeqFeature/REST",
