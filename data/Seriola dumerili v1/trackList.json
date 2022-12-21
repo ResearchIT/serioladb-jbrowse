@@ -1,6 +1,6 @@
 {
     "formatVersion" : 1,
-    "refSeqs": "https://db.serioladb.org/api/jbrowse/refSeqs.json?soType=supercontig&organism=Seriola dumerili",
+    "refSeqs": "https://db.serioladb.org/api/jbrowse/refSeqs.json?soType=supercontig&organism=Seriola dumerili v1",
     "names" : {
        "type" : "REST",
        "url" : "https://db.serioladb.org/api/jbrowse/names"
@@ -15,7 +15,7 @@
           "storeClass": "JBrowse/Store/SeqFeature/REST",
           "baseUrl":    "https://db.serioladb.org/api/jbrowse",
           "query": {
-             "organism": "Seriola dumerili"
+             "organism": "Seriola dumerili v1"
           }
         },
         {
@@ -24,7 +24,7 @@
           "key" : "Gene",
           "label" : "gene",
           "query" : {
-             "organism": "Seriola dumerili",
+             "organism": "Seriola dumerili v1",
              "soType" : "gene"
           },
           "storeClass" : "JBrowse/Store/SeqFeature/REST",
@@ -40,7 +40,7 @@
           "key" : "Transcript",
           "label" : "transcripts",
           "query" : {
-             "organism": "Seriola dumerili",
+             "organism": "Seriola dumerili v1",
              "soType" : "mRNA"
           },
           "storeClass" : "JBrowse/Store/SeqFeature/REST",
@@ -56,7 +56,7 @@
           "key" : "CDS",
           "label" : "CDS",
           "query" : {
-             "organism": "Seriola dumerili",
+             "organism": "Seriola dumerili v1",
              "soType" : "CDS"
           },
           "storeClass" : "JBrowse/Store/SeqFeature/REST",
@@ -68,7 +68,7 @@
           "key" : "SNV",
           "label" : "SNV",
           "query" : {
-             "organism" : "Seriola dumerili",
+             "organism" : "Seriola dumerili v1",
              "soType" : "SNV"
           },
           "storeClass" : "JBrowse/Store/SeqFeature/REST",
